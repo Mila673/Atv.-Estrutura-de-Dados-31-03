@@ -1,0 +1,25 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.ex460;
+
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author eMiLy
+ */
+public class Ex460 {
+
+    public static void main(String[] args) {
+        int a = 0, c;
+        int dob;
+        
+        for(c=1; c<=3; c++){
+            a=Integer.parseInt(JOptionPane.showInputDialog("Digite numero: " +a));
+            dob=a*2;
+            JOptionPane.showMessageDialog(null, "Dobro do numero: " +dob);
+        }
+    }
+}
