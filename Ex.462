@@ -1,0 +1,29 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.ex462;
+
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author eMiLy
+ */
+public class Ex462 {
+
+    public static void main(String[] args) {
+        float n1, n2, n3, m, media;
+        
+        n1=Float.parseFloat(JOptionPane.showInputDialog("Digite a nota 1: "));
+        n2=Float.parseFloat(JOptionPane.showInputDialog("Digite a nota 2: "));
+        n3=Float.parseFloat(JOptionPane.showInputDialog("Digite a nota 3: "));
+        
+        media=(n1+n2+n3)/3;
+        JOptionPane.showMessageDialog(null, "Media aritmetica e: " +media);
+        
+        m=media;
+        JOptionPane.showMessageDialog(null, "Media armazenda em variavel e: " +m);
+        
+    }
+}
