@@ -1,0 +1,30 @@
+package com.mycompany.ex470;
+
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author eMiLy
+ */
+public class Ex470 {
+
+    public static void main(String[] args) {
+        int num, pri;
+        int primo();   
+        
+        num=Integer.parseInt(JOptionPane.showInputDialog("Digite um numero maior que 0: "));
+        
+        pri=primo(num);
+        
+        if(pri==0){
+            JOptionPane.showMessageDialog(null, "E primo: " +num);
+        }
+        if(pri!=0){
+            JOptionPane.showMessageDialog(null, "Nao e primo: " +num);
+        }
+    }
+
+    private static int primo(int num) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+}
