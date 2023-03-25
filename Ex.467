@@ -1,0 +1,37 @@
+package com.mycompany.ex467;
+
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author eMiLy
+ */
+public class Ex467 {
+
+    public static void main(String[] args) {
+        int z, L, b, c;
+        int log();
+        
+        for (c=1; c<=3; c++){
+            
+            L=Integer.parseInt(JOptionPane.showInputDialog("Digite logaritmando maior que 0: "));
+            while (L<=0){
+                JOptionPane.showMessageDialog(null, "Invalido");
+                L=Integer.parseInt(JOptionPane.showInputDialog("Digite logaritmando maior que 0: "));
+            }
+            
+            b=Integer.parseInt(JOptionPane.showInputDialog("Digite base maior que 0 e diferente de 1: "));
+            while (b<0 || b==1){
+                JOptionPane.showMessageDialog(null, "Invalido");
+                b=Integer.parseInt(JOptionPane.showInputDialog("Digite base maior que 0 e diferente de 1: "));
+            }
+            JOptionPane.showMessageDialog(null, "Logaritmo e:" +log(L, b));
+            z=log(L, b);
+             JOptionPane.showMessageDialog(null, "Z e:" +z);
+        }
+    }
+
+    private static int log(int L, int b) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+}
