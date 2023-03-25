@@ -1,0 +1,35 @@
+package com.mycompany.ex471;
+
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author eMiLy
+ */
+public class Ex471 {
+
+    public static void main(String[] args) {
+        int n, n1, n2;
+        int divisor();   
+        
+        n1=Integer.parseInt(JOptionPane.showInputDialog("Digite dividendo: "));
+        n2=Integer.parseInt(JOptionPane.showInputDialog("Digite divisor: "));
+        
+        while(n2>n1){
+            JOptionPane.showMessageDialog(null, "Invalido");
+            n2=Integer.parseInt(JOptionPane.showInputDialog("Digite numero menor que dividendo: "));
+        }
+        n=divisor(n1, n2);
+        
+        if(n==0){
+            JOptionPane.showMessageDialog(null, "Nenhuma vez");
+        }
+        else{
+            JOptionPane.showMessageDialog(null, "Numero de vezes: " +n);
+        }
+    }
+
+    private static int divisor(int n1, int n2) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+}
