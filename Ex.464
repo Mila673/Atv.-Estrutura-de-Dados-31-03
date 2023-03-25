@@ -1,0 +1,15 @@
+public class Ex464 {
+
+    public static void main(String[] args) {
+        int ang, g, graus;
+        ang=Integer.parseInt(JOptionPane.showInputDialog("Digite angulo em radiano"));
+        
+        g=graus(ang);
+        
+        JOptionPane.showMessageDialog(null, "Radiano: "+ang+ " Graus:" +g);  
+    }
+
+    private static int graus(int ang) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+}
