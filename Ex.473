@@ -1,0 +1,30 @@
+package com.mycompany.ex473;
+
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author eMiLy
+ */
+public class Ex473 {
+
+    public static void main(String[] args) {
+        String c;
+        String maiuscula();   
+        int x;
+        c=String.valueOf(JOptionPane.showInputDialog("Digite a letra: "));
+        
+        x=maiuscula(c);
+        
+        if (x==1){
+            JOptionPane.showMessageDialog(null, "1- E uma consoante");
+        }
+        else{
+            JOptionPane.showMessageDialog(null, "0- Nao e uma consoante");
+        }
+    }
+
+    private static int maiuscula(String c) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+}
