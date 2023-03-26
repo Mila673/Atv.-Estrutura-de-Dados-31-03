@@ -1,0 +1,30 @@
+package com.mycompany.ex480;
+
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author eMiLy
+ */
+public class Ex480 {
+
+    public static void main(String[] args) {
+        int n, x; 
+        int reverso();
+        
+        n=Integer.parseInt(JOptionPane.showInputDialog("Digite um numero"));
+        
+        x=reverso(n);
+        JOptionPane.showMessageDialog(null, n + "--" +x);
+        
+        if (x==n){
+            JOptionPane.showMessageDialog(null, "E um numero capicua");
+        } else{
+            JOptionPane.showMessageDialog(null, "Nao e um numero capicua");
+        }
+    }
+
+    private static int reverso(int n) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+}
