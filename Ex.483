@@ -1,0 +1,36 @@
+package com.mycompany.ex483;
+
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author eMiLy
+ */
+public class Ex483 {
+
+    public static void main(String[] args) {
+        int L, c, aux;
+        int prointerno();
+        int num[]= new int [4];
+        int num1[]= new int [4];
+        
+        for(L=0; L<4; L++){
+            num[L]=Integer.parseInt(JOptionPane.showInputDialog("Digite primeiro numero: " +L+1 + ": "+num[L]));
+            num1[L]=Integer.parseInt(JOptionPane.showInputDialog("Digite segundo numero: " +L+1 + ": "+num1[L]));
+        }
+        
+        c=prointerno(num, num1, 4);
+        
+        JOptionPane.showMessageDialog(null, "Vetor A: " + "\t" + " Vetor B: " + "\n");
+        
+        for(L=0; L<4; L++){
+            JOptionPane.showMessageDialog(null, "\n" +num[L] + "\t" + num1[L]);
+        }
+        JOptionPane.showMessageDialog(null, "Produto interno: " +c);
+        
+    }
+
+    private static int prointerno(int[] num, int[] num1, int i) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+}
