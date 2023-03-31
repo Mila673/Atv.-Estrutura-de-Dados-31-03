@@ -1,0 +1,32 @@
+package com.mycompany.ex487;
+
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author eMiLy
+ */
+public class Ex487 {
+
+    public static void main(String[] args) {
+        int L, n;
+        int num[]=new int [10];
+        int void inverte();
+        
+        for(L=0; L<10; L++){
+            num[L]=Integer.parseInt(JOptionPane.showInputDialog("Digite numero:" +L + ": "));
+        }
+        inverte(num, 10);
+        JOptionPane.showMessageDialog(null, "Vetor: \n");
+        
+        for(L=0; L<10; L++){
+            JOptionPane.showInputDialog(L+1 + "-----:" +num[L]);
+        }
+        
+    }
+
+    private static void inverte(int[] num, int i) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+    
+}
