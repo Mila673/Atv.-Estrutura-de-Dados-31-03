@@ -1,0 +1,29 @@
+package com.mycompany.ex485;
+
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author eMiLy
+ */
+public class Ex485 {
+
+    public static void main(String[] args) {
+        int L, c;
+        int num[]=new int [6];
+        String num1[]=new String [6];
+        int void multivetor();
+        
+        for(L=0; L<6; L++){
+            num[L]=Integer.parseInt(JOptionPane.showInputDialog("Digite numero:" +L + ": "));
+        }
+        for(L=0; L<6; L++){
+            num[L]=Integer.parseInt(JOptionPane.showInputDialog("Digite caractere:" +L + ": "));
+        }
+        multivetor(num, num1, 6);
+    }
+
+    private static void multivetor(int[] num, String[] num1, int i) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+}
