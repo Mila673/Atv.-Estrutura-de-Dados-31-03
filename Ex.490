@@ -1,0 +1,24 @@
+package com.mycompany.ex490;
+
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author eMiLy
+ */
+public class Ex490 {
+
+    public static void main(String[] args) {
+        String nome[]=new String[10];
+        int L;
+        int void restantes();
+        
+        for(L=0; L<10; L++){
+            nome[L]=String.valueOf(JOptionPane.showInputDialog("Digite palavra em letras minusculas:" +L + " : "));
+            restantes (nome[L], strtam(nome[L]), "c");
+        }
+        for(L=0; L<10; L++){
+            JOptionPane.showInputDialog(L+1 + "----" +nome[L]);
+        }
+    }
+}
